@@ -1,5 +1,17 @@
 // Your web app's Firebase configuration
 //ADD YOUR FIREBASE LINKS HERE
+const firebaseConfig = {
+    apiKey: "AIzaSyCf_x-cp7XAKRfw7oNwwpJdJ_XGmCjQXA0",
+    authDomain: "let-s-chat-web-app-563cc.firebaseapp.com",
+    databaseURL: "https://let-s-chat-web-app-563cc-default-rtdb.firebaseio.com",
+    projectId: "let-s-chat-web-app-563cc",
+    storageBucket: "let-s-chat-web-app-563cc.appspot.com",
+    messagingSenderId: "966172510149",
+    appId: "1:966172510149:web:5c3a22f06d0900b8f92dac"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 
 
 // Initialize Firebase
